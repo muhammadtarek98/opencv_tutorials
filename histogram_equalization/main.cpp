@@ -20,6 +20,5 @@ int main()
     cv::waitKey(0);
     cv::destroyAllWindows();
 
-
     return 0;
 }
