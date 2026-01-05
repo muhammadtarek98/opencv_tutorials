@@ -76,21 +76,3 @@ make
 ## Running the Examples
 
 After building, run the generated executable from the build directory. Note that some examples may require you to update the image paths in the source code to point to your own images.
-
-## Learning Path
-
-If you're new to OpenCV, we recommend following this learning path:
-
-1. Start with **opencv_utitities/mat_types** to understand OpenCV's Mat data structure
-2. Explore **image_transformations/threshold** for basic image operations
-3. Learn **calcuate_histogram** and **histogram_equalization** for understanding image statistics
-4. Move to **geometric_transformation** tutorials for spatial transformations
-5. Try advanced topics like **grab_cut** and **flood_fill** for segmentation
-
-## Contributing
-
-Feel free to contribute additional tutorials, improvements, or bug fixes to this repository.
-
-## Acknowledgments
-
-These tutorials are designed to help developers learn OpenCV through practical, hands-on examples.
