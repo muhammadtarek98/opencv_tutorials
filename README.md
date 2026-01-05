@@ -1,0 +1,92 @@
+# OpenCV Tutorials
+
+A comprehensive collection of C++ examples demonstrating various OpenCV functionalities for image processing, computer vision, and geometric transformations.
+
+## Overview
+
+This repository contains practical tutorials and code examples for learning OpenCV. Each tutorial is self-contained with its own CMake configuration and demonstrates specific OpenCV features through working code examples.
+
+## Repository Structure
+
+### Histogram Operations
+
+- **calcuate_histogram** - Calculate and visualize image histograms
+- **campare_histograms** - Compare histograms between different images
+- **histogram_equalization** - Enhance image contrast using histogram equalization
+
+### Image Transformations
+
+- **threshold** - Apply binary thresholding to images
+- **adaptive_threshold** - Adaptive thresholding for varying lighting conditions
+- **linear_blend** - Blend two images using linear interpolation
+- **distance_transformation** - Compute distance transform of binary images
+- **flood_fill** - Fill connected regions in images
+- **grab_cut** - Foreground extraction using GrabCut algorithm
+- **integral** - Calculate integral images for efficient region analysis
+
+### Geometric Transformations
+
+- **affine_transformation** - Apply affine transformations to images
+- **warp_perspective_transformation** - Perspective warping and transformation
+- **rotation_matrix** - Rotate images using rotation matrices
+- **resize** - Image resizing with various interpolation methods
+- **remap** - Generic geometric transformations using remapping
+- **get_rect_sub_pixel** - Extract sub-pixel accurate rectangular regions
+- **polar_transformations** - Convert between Cartesian and polar coordinates
+
+### OpenCV Utilities
+
+- **applycolormap** - Apply color maps to grayscale images
+- **mat_types** - Working with different Mat types and conversions
+- **convert_maps** - Conversion between different mapping representations
+
+## Prerequisites
+
+- OpenCV library (version 4.x or later recommended)
+- C++ compiler with C++11 support or later
+- CMake (version 3.0 or later)
+
+## Building the Tutorials
+
+Each tutorial directory contains its own `CMakeLists.txt` file. To build a specific tutorial:
+
+```bash
+cd <tutorial_directory>
+mkdir build
+cd build
+cmake ..
+make
+```
+
+For example, to build the threshold tutorial:
+
+```bash
+cd image_transformations/threshold
+mkdir build
+cd build
+cmake ..
+make
+./threshold
+```
+
+## Running the Examples
+
+After building, run the generated executable from the build directory. Note that some examples may require you to update the image paths in the source code to point to your own images.
+
+## Learning Path
+
+If you're new to OpenCV, we recommend following this learning path:
+
+1. Start with **opencv_utitities/mat_types** to understand OpenCV's Mat data structure
+2. Explore **image_transformations/threshold** for basic image operations
+3. Learn **calcuate_histogram** and **histogram_equalization** for understanding image statistics
+4. Move to **geometric_transformation** tutorials for spatial transformations
+5. Try advanced topics like **grab_cut** and **flood_fill** for segmentation
+
+## Contributing
+
+Feel free to contribute additional tutorials, improvements, or bug fixes to this repository.
+
+## Acknowledgments
+
+These tutorials are designed to help developers learn OpenCV through practical, hands-on examples.
