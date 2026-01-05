@@ -16,29 +16,33 @@ This repository contains practical tutorials and code examples for learning Open
 
 ### Image Transformations
 
-- **threshold** - Apply binary thresholding to images
-- **adaptive_threshold** - Adaptive thresholding for varying lighting conditions
-- **linear_blend** - Blend two images using linear interpolation
-- **distance_transformation** - Compute distance transform of binary images
-- **flood_fill** - Fill connected regions in images
-- **grab_cut** - Foreground extraction using GrabCut algorithm
-- **integral** - Calculate integral images for efficient region analysis
+- **image_transformations/threshold** - Apply binary thresholding to images
+- **image_transformations/adaptive_threshold** - Adaptive thresholding for varying lighting conditions
+- **image_transformations/linear_blend** - Blend two images using linear interpolation
+- **image_transformations/distance_transformation** - Compute distance transform of binary images
+- **image_transformations/flood_fill** - Fill connected regions in images
+- **image_transformations/grab_cut** - Foreground extraction using GrabCut algorithm
+- **image_transformations/integral** - Calculate integral images for efficient region analysis
+
+### Image Filtering
+
+- **image_filtering/laplacian_operator** - Apply Laplacian operator for edge detection
 
 ### Geometric Transformations
 
-- **affine_transformation** - Apply affine transformations to images
-- **warp_perspective_transformation** - Perspective warping and transformation
-- **rotation_matrix** - Rotate images using rotation matrices
-- **resize** - Image resizing with various interpolation methods
-- **remap** - Generic geometric transformations using remapping
-- **get_rect_sub_pixel** - Extract sub-pixel accurate rectangular regions
-- **polar_transformations** - Convert between Cartesian and polar coordinates
+- **geometric_transformation/affine_transformation** - Apply affine transformations to images
+- **geometric_transformation/warp_perspective_transformation** - Perspective warping and transformation
+- **geometric_transformation/rotation_matrix** - Rotate images using rotation matrices
+- **geometric_transformation/resize** - Image resizing with various interpolation methods
+- **geometric_transformation/remap** - Generic geometric transformations using remapping
+- **geometric_transformation/get_rect_sub_pixel** - Extract sub-pixel accurate rectangular regions
+- **geometric_transformation/polar_transformations** - Convert between Cartesian and polar coordinates
 
 ### OpenCV Utilities
 
-- **applycolormap** - Apply color maps to grayscale images
-- **mat_types** - Working with different Mat types and conversions
-- **convert_maps** - Conversion between different mapping representations
+- **opencv_utitities/applycolormap** - Apply color maps to grayscale images
+- **opencv_utitities/mat_types** - Working with different Mat types and conversions
+- **opencv_utitities/convert_maps** - Conversion between different mapping representations
 
 ## Prerequisites
 
