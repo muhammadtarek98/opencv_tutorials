@@ -1,7 +1,5 @@
 # OpenCV Tutorials
 
-A comprehensive collection of C++ examples demonstrating various OpenCV functionalities for image processing, computer vision, and geometric transformations.
-
 ## Overview
 
 This repository contains practical tutorials and code examples for learning OpenCV. Each tutorial is self-contained with its own CMake configuration and demonstrates specific OpenCV features through working code examples.
