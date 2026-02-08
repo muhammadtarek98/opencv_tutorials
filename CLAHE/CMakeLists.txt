@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.18)
+set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-11.8")
+project(CLAHE LANGUAGES CXX CUDA)
+find_package(OpenCV REQUIRED PATHS "/home/muhammad/opencv/" NO_DEFAULT_PATH)
+set(CMAKE_CXX_STANDARD 20)
+add_executable(${PROJECT_NAME} main.cpp)
+target_include_directories(${PROJECT_NAME} PRIVATE ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
