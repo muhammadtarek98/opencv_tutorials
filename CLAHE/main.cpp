@@ -9,7 +9,9 @@ int main()
     cv::split(image,channels);
     double clip_limit{100};
     cv::Size size(8,8);
-    auto clahe=cv::createCLAHE(clip_limit,size);
+    auto clahe=cv::createCLAHE();
+    clahe->setClipLimit(clip_limit);
+    clahe->setTilesGridSize(size);
     clahe->apply(channels[0],channels[0]);
     clahe->apply(channels[1],channels[1]);
     clahe->apply(channels[2],channels[2]);
