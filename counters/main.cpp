@@ -8,6 +8,7 @@ int main()
     std::vector<std::vector<cv::Point>> contours;
     std::vector<cv::Vec4i> hierarchy;
     cv::threshold(img,bin_img,100,255,cv::THRESH_BINARY);
+    cv::findContours(bin_img,contours,hierarchy,cv::RETR_TREE,cv::CHAIN_APPROX_SIMPLE);
     cv::drawContours(mask,contours,-1,cv::Scalar(0,255,255),1);
     for (auto i=0;i<contours.size();++i)
     {
